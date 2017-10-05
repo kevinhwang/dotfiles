@@ -147,6 +147,9 @@
 	# Use `hexdump` to diff binary files
 	textconv = hexdump -v -C
 
+[gpg]
+	program = gpg
+
 [help]
 
 	# Automatically correct and execute mistyped commands
@@ -163,6 +166,11 @@
 	default = simple
 	# Make `git push` push relevant annotated tags when pushing branches out.
 	followTags = true
+
+[user]
+	name = "Kevin Hwang"
+	email = "kevinhwang@eng.ucsd.edu"
+	signingkey = "A66D2B5BFE6C815B"
 
 # URL shorthands
 
