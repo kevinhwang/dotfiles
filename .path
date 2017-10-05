@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+# Prefer Homebrew's GNU coreutils
+if command -v brew &> /dev/null; then
+    export PATH="$(brew --prefix coreutils)/libexec/gnubin:$PATH"
+    export PATH="$(brew --prefix)/bin:$(brew --prefix)/sbin:$PATH"
+    export MANPATH="$(brew --prefix coreutils)/libexec/gnuman:$MANPATH"
+fi
+
+# Add `~/bin` and `/usr/local/bin` to the PATH
+export PATH="$HOME/bin:$PATH";

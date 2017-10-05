@@ -1,0 +1,2 @@
+cleanhome
+history -c
