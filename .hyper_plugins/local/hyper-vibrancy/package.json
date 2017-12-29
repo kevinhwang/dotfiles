@@ -1,0 +1,12 @@
+{
+  "name": "hyper-vibrancy",
+  "version": "0.1.0",
+  "description": "Add vibrancy to Hyper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kevin Hwang <kevinhwang@eng.ucsd.edu>",
+  "license": "MIT",
+  "repository": ""
+}
